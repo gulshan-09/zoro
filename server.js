@@ -8,7 +8,7 @@ const controllers = require("./controllers/dataController");
 
 const PORT = process.env.PORT || "5001";
 const API_KEY = process.env.API_KEY;
-const ALLOWED_HOST = "gojoo.fun";
+const ALLOWED_HOST = "zorox.fun";
 
 app.use(cors());
 app.use(express.json());
